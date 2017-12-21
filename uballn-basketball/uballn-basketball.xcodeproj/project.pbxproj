@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7012FF281FB6526300B4EF58 /* CustomizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7012FF231FB6526000B4EF58 /* CustomizableButton.swift */; };
+		7012FF291FB6526300B4EF58 /* CustomizableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7012FF241FB6526100B4EF58 /* CustomizableImageView.swift */; };
+		7012FF2A1FB6526300B4EF58 /* CustomizableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7012FF251FB6526100B4EF58 /* CustomizableTextView.swift */; };
+		7012FF2B1FB6526300B4EF58 /* CustomizableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7012FF261FB6526100B4EF58 /* CustomizableTextField.swift */; };
+		7012FF2C1FB6526300B4EF58 /* CustomizableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7012FF271FB6526200B4EF58 /* CustomizableLabel.swift */; };
+		7012FF2E1FB65EAB00B4EF58 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7012FF2D1FB65EAB00B4EF58 /* LoginController.swift */; };
+		7012FF301FB65F3A00B4EF58 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7012FF2F1FB65F3A00B4EF58 /* SignupController.swift */; };
+		701CA6451FB61E5400E23E8B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701CA6441FB61E5400E23E8B /* AVFoundation.framework */; };
+		701CA6471FB61F4600E23E8B /* playing_ball.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 701CA6461FB61F4600E23E8B /* playing_ball.mp4 */; };
+		7056100C1FB93ACF007554CE /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7056100B1FB93ACE007554CE /* NetworkingService.swift */; };
+		706633421FC6303300EC4BBC /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706633411FC6303300EC4BBC /* ProfileController.swift */; };
+		706633441FC6980D00EC4BBC /* ContactListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706633431FC6980D00EC4BBC /* ContactListVC.swift */; };
 		7083BB931FB501DD00EC5C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7083BB921FB501DD00EC5C8F /* AppDelegate.swift */; };
 		7083BB951FB501DD00EC5C8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7083BB941FB501DD00EC5C8F /* ViewController.swift */; };
 		7083BB981FB501DD00EC5C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7083BB961FB501DD00EC5C8F /* Main.storyboard */; };
@@ -15,6 +27,13 @@
 		7083BBA81FB501DD00EC5C8F /* uballn_basketballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7083BBA71FB501DD00EC5C8F /* uballn_basketballTests.swift */; };
 		7083BBB31FB501DE00EC5C8F /* uballn_basketballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7083BBB21FB501DE00EC5C8F /* uballn_basketballUITests.swift */; };
 		7083BBC11FB5045300EC5C8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7083BBC01FB5045300EC5C8F /* GoogleService-Info.plist */; };
+		70A2DE1B1FCA090F00C28BA0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A2DE1A1FCA090F00C28BA0 /* FBSDKCoreKit.framework */; };
+		70A2DE1D1FCA09B900C28BA0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A2DE1C1FCA09B900C28BA0 /* FBSDKLoginKit.framework */; };
+		70A2DE221FCA0D3100C28BA0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A2DE211FCA0D3100C28BA0 /* StoreKit.framework */; };
+		70AA61CF1FB6BF2E005C2801 /* onboarding.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70AA61CD1FB6BF2E005C2801 /* onboarding.xib */; };
+		70AA61D11FB6C10B005C2801 /* onboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA61D01FB6C10B005C2801 /* onboardingView.swift */; };
+		70B3626D1FB809DF00DC68DC /* AertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B3626C1FB809DE00DC68DC /* AertController.swift */; };
+		70B3626F1FB80A0600DC68DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B3626E1FB80A0500DC68DC /* User.swift */; };
 		E71C4EAE9C6A6AA040C41F7C /* Pods_uballn_basketballTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8135109BACAC873C72FC2A0E /* Pods_uballn_basketballTests.framework */; };
 		F297761EB2705CC2FB36490A /* Pods_uballn_basketball.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0469C3C1AD82535FDB35DB2 /* Pods_uballn_basketball.framework */; };
 		F35003962212E6745B95AF30 /* Pods_uballn_basketballUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C206C70427884BFCACFBB8D9 /* Pods_uballn_basketballUITests.framework */; };
@@ -41,6 +60,18 @@
 		14EB2E62DCEE907C0B62578D /* Pods-uballn-basketballUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uballn-basketballUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-uballn-basketballUITests/Pods-uballn-basketballUITests.release.xcconfig"; sourceTree = "<group>"; };
 		29A76211134E8FDC6F447395 /* Pods-uballn-basketballTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uballn-basketballTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uballn-basketballTests/Pods-uballn-basketballTests.debug.xcconfig"; sourceTree = "<group>"; };
 		395D1BA3C9B74868E301AF9C /* Pods-uballn-basketballUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uballn-basketballUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uballn-basketballUITests/Pods-uballn-basketballUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7012FF231FB6526000B4EF58 /* CustomizableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomizableButton.swift; path = Customizables/CustomizableButton.swift; sourceTree = "<group>"; };
+		7012FF241FB6526100B4EF58 /* CustomizableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomizableImageView.swift; path = Customizables/CustomizableImageView.swift; sourceTree = "<group>"; };
+		7012FF251FB6526100B4EF58 /* CustomizableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomizableTextView.swift; path = Customizables/CustomizableTextView.swift; sourceTree = "<group>"; };
+		7012FF261FB6526100B4EF58 /* CustomizableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomizableTextField.swift; path = Customizables/CustomizableTextField.swift; sourceTree = "<group>"; };
+		7012FF271FB6526200B4EF58 /* CustomizableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomizableLabel.swift; path = Customizables/CustomizableLabel.swift; sourceTree = "<group>"; };
+		7012FF2D1FB65EAB00B4EF58 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7012FF2F1FB65F3A00B4EF58 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		701CA6441FB61E5400E23E8B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		701CA6461FB61F4600E23E8B /* playing_ball.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = playing_ball.mp4; path = ../../../../../../../../../Downloads/playing_ball.mp4; sourceTree = "<group>"; };
+		7056100B1FB93ACE007554CE /* NetworkingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		706633411FC6303300EC4BBC /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		706633431FC6980D00EC4BBC /* ContactListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListVC.swift; sourceTree = "<group>"; };
 		7083BB8F1FB501DD00EC5C8F /* uballn-basketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uballn-basketball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7083BB921FB501DD00EC5C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7083BB941FB501DD00EC5C8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +86,14 @@
 		7083BBB21FB501DE00EC5C8F /* uballn_basketballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uballn_basketballUITests.swift; sourceTree = "<group>"; };
 		7083BBB41FB501DE00EC5C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7083BBC01FB5045300EC5C8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		70A2DE1A1FCA090F00C28BA0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		70A2DE1C1FCA09B900C28BA0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		70A2DE1E1FCA0D0C00C28BA0 /* uballn-basketball.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "uballn-basketball.entitlements"; sourceTree = "<group>"; };
+		70A2DE211FCA0D3100C28BA0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		70AA61CD1FB6BF2E005C2801 /* onboarding.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = onboarding.xib; sourceTree = "<group>"; };
+		70AA61D01FB6C10B005C2801 /* onboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingView.swift; sourceTree = "<group>"; };
+		70B3626C1FB809DE00DC68DC /* AertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AertController.swift; sourceTree = "<group>"; };
+		70B3626E1FB80A0500DC68DC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8135109BACAC873C72FC2A0E /* Pods_uballn_basketballTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uballn_basketballTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8457D79D97F47BB673E1BC6A /* Pods-uballn-basketball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uballn-basketball.release.xcconfig"; path = "Pods/Target Support Files/Pods-uballn-basketball/Pods-uballn-basketball.release.xcconfig"; sourceTree = "<group>"; };
 		A0469C3C1AD82535FDB35DB2 /* Pods_uballn_basketball.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uballn_basketball.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +107,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701CA6451FB61E5400E23E8B /* AVFoundation.framework in Frameworks */,
+				70A2DE1B1FCA090F00C28BA0 /* FBSDKCoreKit.framework in Frameworks */,
+				70A2DE221FCA0D3100C28BA0 /* StoreKit.framework in Frameworks */,
+				70A2DE1D1FCA09B900C28BA0 /* FBSDKLoginKit.framework in Frameworks */,
 				F297761EB2705CC2FB36490A /* Pods_uballn_basketball.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,6 +134,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		701CA6921FB6502800E23E8B /* Customizables */ = {
+			isa = PBXGroup;
+			children = (
+				7012FF231FB6526000B4EF58 /* CustomizableButton.swift */,
+				7012FF241FB6526100B4EF58 /* CustomizableImageView.swift */,
+				7012FF271FB6526200B4EF58 /* CustomizableLabel.swift */,
+				7012FF261FB6526100B4EF58 /* CustomizableTextField.swift */,
+				7012FF251FB6526100B4EF58 /* CustomizableTextView.swift */,
+			);
+			name = Customizables;
+			sourceTree = "<group>";
+		};
 		7083BB861FB501DD00EC5C8F = {
 			isa = PBXGroup;
 			children = (
@@ -116,11 +171,21 @@
 		7083BB911FB501DD00EC5C8F /* uballn-basketball */ = {
 			isa = PBXGroup;
 			children = (
+				70A2DE1E1FCA0D0C00C28BA0 /* uballn-basketball.entitlements */,
 				7083BB921FB501DD00EC5C8F /* AppDelegate.swift */,
 				7083BB991FB501DD00EC5C8F /* Assets.xcassets */,
-				7083BB961FB501DD00EC5C8F /* Main.storyboard */,
 				7083BB9B1FB501DD00EC5C8F /* LaunchScreen.storyboard */,
+				7083BB961FB501DD00EC5C8F /* Main.storyboard */,
 				7083BB941FB501DD00EC5C8F /* ViewController.swift */,
+				7012FF2F1FB65F3A00B4EF58 /* SignupController.swift */,
+				7012FF2D1FB65EAB00B4EF58 /* LoginController.swift */,
+				706633411FC6303300EC4BBC /* ProfileController.swift */,
+				706633431FC6980D00EC4BBC /* ContactListVC.swift */,
+				70AA61CD1FB6BF2E005C2801 /* onboarding.xib */,
+				70AA61D01FB6C10B005C2801 /* onboardingView.swift */,
+				701CA6921FB6502800E23E8B /* Customizables */,
+				70B362731FB80A3E00DC68DC /* Helpers */,
+				701CA6461FB61F4600E23E8B /* playing_ball.mp4 */,
 				7083BBC01FB5045300EC5C8F /* GoogleService-Info.plist */,
 				7083BB9E1FB501DD00EC5C8F /* Info.plist */,
 			);
@@ -145,6 +210,16 @@
 			path = "uballn-basketballUITests";
 			sourceTree = "<group>";
 		};
+		70B362731FB80A3E00DC68DC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				70B3626C1FB809DE00DC68DC /* AertController.swift */,
+				7056100B1FB93ACE007554CE /* NetworkingService.swift */,
+				70B3626E1FB80A0500DC68DC /* User.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		B91F23E3EFA69A41C4A9AC68 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +236,10 @@
 		F3C7E9AB1071D98FAE80DFB5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70A2DE211FCA0D3100C28BA0 /* StoreKit.framework */,
+				70A2DE1C1FCA09B900C28BA0 /* FBSDKLoginKit.framework */,
+				70A2DE1A1FCA090F00C28BA0 /* FBSDKCoreKit.framework */,
+				701CA6441FB61E5400E23E8B /* AVFoundation.framework */,
 				A0469C3C1AD82535FDB35DB2 /* Pods_uballn_basketball.framework */,
 				8135109BACAC873C72FC2A0E /* Pods_uballn_basketballTests.framework */,
 				C206C70427884BFCACFBB8D9 /* Pods_uballn_basketballUITests.framework */,
@@ -246,6 +325,23 @@
 					7083BB8E1FB501DD00EC5C8F = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					7083BBA21FB501DD00EC5C8F = {
 						CreatedOnToolsVersion = 9.1;
@@ -284,7 +380,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70AA61CF1FB6BF2E005C2801 /* onboarding.xib in Resources */,
 				7083BB9D1FB501DD00EC5C8F /* LaunchScreen.storyboard in Resources */,
+				701CA6471FB61F4600E23E8B /* playing_ball.mp4 in Resources */,
 				7083BBC11FB5045300EC5C8F /* GoogleService-Info.plist in Resources */,
 				7083BB9A1FB501DD00EC5C8F /* Assets.xcassets in Resources */,
 				7083BB981FB501DD00EC5C8F /* Main.storyboard in Resources */,
@@ -451,7 +549,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7083BB951FB501DD00EC5C8F /* ViewController.swift in Sources */,
+				7012FF2C1FB6526300B4EF58 /* CustomizableLabel.swift in Sources */,
+				7012FF2A1FB6526300B4EF58 /* CustomizableTextView.swift in Sources */,
+				70AA61D11FB6C10B005C2801 /* onboardingView.swift in Sources */,
 				7083BB931FB501DD00EC5C8F /* AppDelegate.swift in Sources */,
+				7012FF2B1FB6526300B4EF58 /* CustomizableTextField.swift in Sources */,
+				7012FF2E1FB65EAB00B4EF58 /* LoginController.swift in Sources */,
+				706633421FC6303300EC4BBC /* ProfileController.swift in Sources */,
+				7012FF301FB65F3A00B4EF58 /* SignupController.swift in Sources */,
+				70B3626F1FB80A0600DC68DC /* User.swift in Sources */,
+				7012FF291FB6526300B4EF58 /* CustomizableImageView.swift in Sources */,
+				7012FF281FB6526300B4EF58 /* CustomizableButton.swift in Sources */,
+				7056100C1FB93ACF007554CE /* NetworkingService.swift in Sources */,
+				70B3626D1FB809DF00DC68DC /* AertController.swift in Sources */,
+				706633441FC6980D00EC4BBC /* ContactListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,8 +729,13 @@
 			baseConfigurationReference = B98045822A5613864E97627A /* Pods-uballn-basketball.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "uballn-basketball/uballn-basketball.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HYEU555LQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "uballn-basketball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uballn.uballn-basketball";
@@ -634,8 +750,13 @@
 			baseConfigurationReference = 8457D79D97F47BB673E1BC6A /* Pods-uballn-basketball.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "uballn-basketball/uballn-basketball.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HYEU555LQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "uballn-basketball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uballn.uballn-basketball";

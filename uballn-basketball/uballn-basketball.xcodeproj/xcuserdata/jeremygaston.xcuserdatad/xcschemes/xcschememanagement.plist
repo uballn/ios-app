@@ -7,7 +7,25 @@
 		<key>uballn-basketball.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>21</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7083BB8E1FB501DD00EC5C8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7083BBA21FB501DD00EC5C8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7083BBAD1FB501DE00EC5C8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
